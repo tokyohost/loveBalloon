@@ -1,3 +1,14 @@
+
+
+function playmusic(){
+	let m = document.querySelector('.song-audio-autoplay');
+	if (m.paused ) {
+		m.play(); 
+	}
+}
+
+playmusic();
+
 window.addEventListener("load", () => {
     new Container(config.wish, config.time, config.texts);
 });
